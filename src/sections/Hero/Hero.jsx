@@ -1,5 +1,5 @@
 import styles from './HeroStyles.module.css';
-import heroImg from '../../assets/Design uten navn.png';
+import heroImg from '../../assets/Manas.png';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import twitterLight from '../../assets/twitter-light.svg';
@@ -25,8 +25,10 @@ function Hero() {
         <img
           src={heroImg}
           className={styles.hero}
-          alt="Profile picture of Harris Johnsen"
+          alt="Profile picture of Manas Puri"
+          onClick={toggleTheme}         
         />
+
         <img
           className={styles.colorMode}
           src={themeIcon}
@@ -36,25 +38,21 @@ function Hero() {
       </div>
       <div className={styles.info}>
         <h1>
-          Harris
+          Manas
           <br />
-          Johnsen
+          Puri
         </h1>
-        <h2>Frontend Developer</h2>
+        <h2>Full Stack Devloper</h2>
         <span>
-          <a href="https://twitter.com/" target="_blank">
-            <img src={twitterIcon} alt="Twitter icon" />
-          </a>
-          <a href="https://github.com/" target="_blank">
+          <a href="https://github.com/codewickk" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
-          <a href="https://linkedin.com/" target="_blank">
+          <a href="https://www.linkedin.com/in/manas-puri-6071a1241/" target="_blank">
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing modern React web apps for commercial
-          businesses.
+        I am a passionate MERN stack developer dedicated to creating dynamic, user-friendly web applications.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>

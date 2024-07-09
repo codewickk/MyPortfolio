@@ -1,8 +1,7 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
+import Noteworthy from '../../assets/noteworthy.svg';
+import Netflix from '../../assets/Netflix.svg';
+import videochum from '../../assets/videochum.svg';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -10,29 +9,24 @@ function Projects() {
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
+      
         <ProjectCard
-          src={viberr}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Viberr"
-          p="Streaming App"
+          src={Noteworthy}
+          link="https://noteworthy-git-main-codewickks-projects.vercel.app/"
+          h3="Noteworthy"
+          p="Take clean notes"
         />
         <ProjectCard
-          src={freshBurger}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          src={Netflix}
+          link="https://netflix-clone-blush-five.vercel.app/"
+          h3="Netflix-clone"
+          p="Netflix landing page"
         />
         <ProjectCard
-          src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
-        />
-        <ProjectCard
-          src={fitLift}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="FitLift"
-          p="Fitness App"
+          src={videochum}
+          link="https://videochum-codewickks-projects.vercel.app/"
+          h3="videochum"
+          p="Connect through video calls"
         />
       </div>
     </section>

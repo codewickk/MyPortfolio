@@ -1,0 +1,39 @@
+.card {
+  background-color: var(--experience-card-bg); /* Use CSS variable for background color */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s;
+  padding: 20px; /* Added padding for better spacing */
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  color: var(--text-color); /* Use CSS variable for text color */
+}
+
+.paragraphContainer {
+  max-width: 600px; /* Limit the width of the paragraph */
+  margin: 0 auto; /* Center the paragraph */
+  padding: 10px; /* Add padding for spacing */
+  border: 1px solid #ccc; /* Optional: Add border for visual separation */
+  border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+  background-color: #f9f9f9; /* Optional: Add background color */
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--text-color); /* Use CSS variable for text color */
+}

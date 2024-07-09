@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.certificatesContainer {
+  display: flex;
+  flex-direction: row; /* Ensure horizontal layout */
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap; /* Allow wrapping if there are too many certificates */
+}
+
+@media (max-width: 800px) {
+  .certificatesContainer {
+    flex-direction: column; /* Switch to vertical layout on smaller screens */
+  }
+}

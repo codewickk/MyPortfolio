@@ -1,0 +1,36 @@
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s;
+  padding: 20px;
+  width: 250px; /* Increase the width for better size */
+  height: 300px; /* Increase the height for better size */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.image {
+  width: 150px; /* Increase the width of the image */
+  height: 150px; /* Increase the height of the image */
+  object-fit: contain; /* Ensure the image covers the card area */
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+p {
+  font-size: 1rem;
+  padding: 0 1rem 1rem;
+  margin: 0;
+}
