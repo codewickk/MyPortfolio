@@ -24,7 +24,7 @@ function Projects() {
         />
         <ProjectCard
           src={videochum}
-          link="https://videochum-codewickks-projects.vercel.app/"
+          link="https://video-chum.vercel.app/"
           h3="videochum"
           p="Connect through video calls"
         />

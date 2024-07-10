@@ -25,8 +25,7 @@ function Hero() {
         <img
           src={heroImg}
           className={styles.hero}
-          alt="Profile picture of Manas Puri"
-          onClick={toggleTheme}         
+          alt="Profile picture of Manas Puri"      
         />
 
         <img
